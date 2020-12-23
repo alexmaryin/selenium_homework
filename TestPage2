@@ -1,0 +1,14 @@
+============================= test session starts =============================
+platform win32 -- Python 3.9.0, pytest-6.2.1, py-1.10.0, pluggy-0.13.1 -- c:\users\maryin\appdata\local\programs\python\python39\python.exe
+cachedir: .pytest_cache
+rootdir: E:\python\mysql_test, configfile: pytest.ini
+collecting ... collected 6 items
+
+test_marks1.py::TestMainPage1::test_guest_should_see_login_link PASSED   [ 16%]
+test_marks1.py::TestMainPage1::test_guest_should_see_basket_link_on_the_main_page PASSED [ 33%]
+test_marks1.py::TestMainPage1::test_guest_should_see_search_button_on_the_main_page XPASS [ 50%]
+test_marks1.py::TestPage2::test_succeed PASSED                           [ 66%]
+test_marks1.py::TestPage2::test_not_succeed XFAIL                        [ 83%]
+test_marks1.py::TestPage2::test_skipped SKIPPED (unconditional skip)     [100%]
+
+============= 3 passed, 1 skipped, 1 xfailed, 1 xpassed in 23.83s =============
